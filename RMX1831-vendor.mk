@@ -41,8 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
     vendor/realme/RMX1831/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
     vendor/realme/RMX1831/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
-    vendor/realme/RMX1831/proprietary/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc-nci.so \
-    vendor/realme/RMX1831/proprietary/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc_nci_jni.so \
     vendor/realme/RMX1831/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/realme/RMX1831/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
@@ -56,7 +54,18 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/realme/RMX1831/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
-    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:system/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.mtkradioex@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.1.so \
+    vendor/realme/RMX1831/proprietary/lib/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.2.so \
+    vendor/realme/RMX1831/proprietary/lib/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.3.so \
+    vendor/realme/RMX1831/proprietary/lib/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.radio@1.4.so \
+    vendor/realme/RMX1831/proprietary/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.0.so \
+    vendor/realme/RMX1831/proprietary/lib64/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.1.so \
+    vendor/realme/RMX1831/proprietary/lib64/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.2.so \
+    vendor/realme/RMX1831/proprietary/lib64/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.3.so \
+    vendor/realme/RMX1831/proprietary/lib64/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.radio@1.4.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.0.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.1.so \
     vendor/realme/RMX1831/proprietary/vendor/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.mtkradioex@1.2.so \
